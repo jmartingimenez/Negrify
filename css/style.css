@@ -1,0 +1,136 @@
+#preloader{
+  width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+   vertical-align: middle;
+}
+
+#logo{
+  height: 56px;
+  margin-top: 4px;
+}
+
+.brand-logo{
+  max-height: 64px;
+}
+
+#searchInicial{
+  color: rgba(255,255,255,0.7);
+  cursor: pointer;
+}
+
+#searchbox{
+  display: none;
+  margin: 12px 10px 0 0;
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+#searchbox i{
+  line-height: 40px !important;
+}
+
+#search{
+  border-radius: 3px;
+}
+
+a, a:visited{
+  color: inherit;;
+}
+
+.subInput{
+  position: absolute;
+  bottom: -20px;
+  font-size: 0.85em;
+  color: #9e9e9e;
+}
+
+#map{
+  width: 100%;
+  height: 250px;
+}
+
+#titulo{
+  display: inline-flex;
+  align-items: center;
+}
+
+#resultado .btn{
+  top: 15px;
+}
+
+#dropdown1 li{
+  align-items: center;
+}
+
+#dropdown1 li a{
+  width: 100%;
+  display: flex;
+  /*text-align: left;*/
+}
+
+
+#dropdown1 li a, #dropdown1 li i{
+  align-self: center;
+}
+
+#dropdown1 a span{
+  padding-left: 10px;
+}
+
+.usercontainer{
+  margin-top: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.usercontainer:hover{
+  background-color: rgba(31, 31, 31, 0.18);
+}
+
+.tabsusuario{
+  overflow: hidden;
+}
+
+.tabs .tab a,
+.tabs .tab a.active,
+.tab{
+  color: #065FA6;
+}
+
+.tabs .tab a:hover{
+  color: #039BBD;
+}
+
+.tabs .indicator{
+  background-color: #065FA6;
+}
+
+#profile_header h3, #profile_header a{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#profile_header a{
+  margin-left: 15px;
+}
+
+#btn_reportar a, #btn_reportar span{
+  vertical-align: top;
+}
+
+#nombreDeLaPlaylist, #editarPlaylist{
+  vertical-align: middle;
+}
+
+#editarPlaylist{
+  margin-left: 10px;
+}
